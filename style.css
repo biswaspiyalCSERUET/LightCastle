@@ -1,0 +1,35 @@
+
+/* styling of Homepage */
+.top-banner {
+    background-image: url('images/Group\ 1377.png');
+}
+.top-most{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.top-most-left{
+    display: flex;
+}
+.mobile a{
+    margin: 40px 40px 10px 10px;
+    color: white;
+}
+.email a{
+    margin: 40px 40px 10px 10px;
+    color: white;
+}
+.top-most-right{
+    float: right;
+    position: relative;
+    top: -30px;
+}
+.top-most-right button {
+        width: 226px;
+        height: 38px;
+}
+@media only screen and (max-width: 770px) {
+    .top-most-right {
+        display: contents;
+    }
+}
+/* top most of the homepage styling done */
